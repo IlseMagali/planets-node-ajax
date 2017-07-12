@@ -1,0 +1,19 @@
+{
+  "name": "planet-students-promises",
+  "version": "1.0.0",
+  "description": "Using promises and ajax to show info about planets",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "promises",
+    "ajax",
+    "planets"
+  ],
+  "author": "Ilse Keymolen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
