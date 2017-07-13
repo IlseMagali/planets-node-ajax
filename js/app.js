@@ -1,10 +1,10 @@
 //promises: una forma de realizar acciones basadas en otras acciones de manera asíncrona
 // 1. obtener a un json que tenía un contenido que es la data de los planetas, más general
 // 2. los planetas eran rutas de las que podías obtener más información, más particular de un planeta
-var template = "<div class='row'>"+ "<div class='col s12 m7'>" +
+var template = "<div class='row'>"+ "<div class='col m7'>" +
 	"<div class='card horizontal'>"+
 		"<div class='card-image'>"+
-			"<img src='https://lorempixel.com/100/190/nature/6'>"+
+			"<img src='exoplanet-one.jpg'>"+
 		"</div>"+
 	"<div class='card-stacked'>"+
 		"<div class='card-content'>"+
@@ -15,6 +15,7 @@ var template = "<div class='row'>"+ "<div class='col s12 m7'>" +
 	"</div>"+
 	"</div>"+
 "</div>"+ "</div>";
+
 
 function getJSON (url) {
 	return new Promise (function(resolve, reject){
