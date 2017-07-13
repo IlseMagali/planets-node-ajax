@@ -13,6 +13,8 @@ app.use('/data', express.static(path.join(__dirname,'data')));
 // express.static son palabras reservadas de express, y podemos usarlo porque tenemos una variable que es express
 app.use('/static', express.static(path.join(__dirname,'js')));
 // get es un método http, que para hacer una petición que hace el navegador
+app.use("/static", express.static(path.join(__dirname, "css")));
+
 app.get("/", function(req, res){
 	//funcion es acción, la acción es que mande un archivo que está en el directorio base "/", para devolvernos el index.html
 	res.sendFile(__dirname + "/index.html");
